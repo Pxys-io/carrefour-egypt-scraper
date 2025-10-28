@@ -14,13 +14,10 @@ venv/
 *.swp
 *.swo
 
-# Logs
-*.log
-nohup.out
-
 # OS
 .DS_Store
 Thumbs.db
 
-# Large files (keep only code and CSVs)
-# Note: results/ and raw_json/ are excluded from git due to size
+# Large data directories (keep only code and CSVs)
+results/
+raw_json/
